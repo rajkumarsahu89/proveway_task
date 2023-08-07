@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Proveway Assignment</title>
+    <link href="index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="heading">
+            <div class="headLine"></div>
+            <h2>Bundle & Save</h2>
+            <div class="headLine"></div>
+        </div>
+        <div class="cart-div">
+            <form action="/action_page.php">
+                <label class="card">
+                    <input name="pair" class="radio" type="radio" onclick="showOption(this)" />
+                    <span class="plan-details">
+                        <div class="pair-details">
+                            <p class="pair">1 Pair</p>
+                            <p class="discount">50% OFF</p>
+                            <p>DKK 195.00</p>
+                        </div>
+                        <section class="product-options d-none" data-section="1">
+                            <div class="option">
+                                <p class="size1">Size</p>
+                                <div class="select-container">
+                                    <span class="indicator">#1</span>
+                                    <select name="size" id="item">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+
+                                <div class="select-container">
+                                    <span class="indicator">#2</span>
+                                    <select name="size2">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p>Colour</p>
+                                <div class="select-container">
+                                    <select name="color1">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                                <div class="select-container">
+                                    <select name="color2">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </span>
+                </label>
+                <label class="card">
+                    <input name="pair" class="radio" type="radio" onclick="showOption(this)" />
+                    <span class="plan-details" aria-hidden="true">
+                        <div class="pair-details">
+                            <p class="pair">2 Pair</p>
+                            <p class="discount">
+                                <span class="popular">Most Popular</span><br />
+                                <del class="strike">DKK 195.00</del>
+                                <span class="float">40% OFF </span>
+                            </p>
+                            <p>DKK 345.00</p>
+                        </div>
+
+                        <section class="product-options d-none" data-section="2">
+                            <div class="option">
+                                <p class="size1">Size</p>
+                                <div class="select-container">
+                                    <span class="indicator">#1</span>
+                                    <select name="size" id="item">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+
+                                <div class="select-container">
+                                    <span class="indicator">#2</span>
+                                    <select name="size2">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p>Colour</p>
+                                <div class="select-container">
+                                    <select name="color1">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                                <div class="select-container">
+                                    <select name="color2">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </span>
+                </label>
+                <label class="card">
+                    <input name="pair" class="radio" type="radio" onclick="showOption(this)" />
+                    <section class="plan-details" aria-hidden="true">
+                        <div class="pair-details">
+                            <p class="pair">3 Pair</p>
+                            <p class="discount">60% OFF</p>
+                            <p>DKK 528.00</p>
+                        </div>
+                        <section class="product-options d-none" data-section="3">
+                            <div class="option">
+                                <p class="size1">Size</p>
+                                <div class="select-container">
+                                    <span class="indicator">#1</span>
+                                    <select name="size" id="item">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+
+                                <div class="select-container">
+                                    <span class="indicator">#2</span>
+                                    <select name="size2">
+                                        <option value="" selected hidden>S</option>
+                                        <option value="Small">S</option>
+                                        <option value="Medium">M</option>
+                                        <option value="Large">L</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="option">
+                                <p>Colour</p>
+                                <div class="select-container">
+                                    <select name="color1">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                                <div class="select-container">
+                                    <select name="color2">
+                                        <option value="" selected hidden>Colour</option>
+                                        <option value="Blue">Blue</option>
+                                        <option value="Red">Red</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </label>
+                <footer>
+                    <div class="footer">
+                        <p class="shipping">Free 2 Day Shipping</p>
+                        <p>Total: DKK 360.00</p>
+                    </div>
+                    <button>+ Add to Cart</button>
+                    <div class="copyright">@Powered by Pumper</div>
+                </footer>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script src="index.js"></script>
